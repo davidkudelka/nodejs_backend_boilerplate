@@ -1,0 +1,20 @@
+{
+  "extends": "./node_modules/@oakslab/ooo-config/common/tsconfig.json",
+  "compilerOptions": {
+    "moduleResolution": "node",
+    "module": "CommonJS",
+    "esModuleInterop": true,
+    "types": ["mocha"],
+    "baseUrl": ".",
+    "target": "ES6",
+    "noUnusedLocals": true,
+    "declaration": true,
+    "typeRoots": ["app/@types"],
+    "paths": {
+      "*": ["./app/@types/*", "./*"],
+      "app/*": ["./app/*"]
+    }
+  },
+  "include": ["./app/**/*", "./test/**/*", "./scripts/**/*", "./knexfile.ts", "./db/**/*"],
+  "exclude": ["./node_modules/**/*", "./firebase/**/*"]
+}

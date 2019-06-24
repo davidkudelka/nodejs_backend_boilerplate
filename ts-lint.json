@@ -1,0 +1,15 @@
+{
+  "extends": "@oakslab/ooo-config/common/tslint",
+  "linterOptions": {
+    "exclude": ["node_modules/**/*.ts", "firebase-auth.json", "app/**/generated/**/*.ts"]
+  },
+  "rules": {
+    "object-literal-sort-keys": false,
+    "prefer-array-literal": [true, { "allow-type-parameters": true }],
+    "object-literal-shorthand": false,
+    "ordered-imports": false,
+    "eofline": true,
+    "no-console": false,
+    "trailing-comma": true
+  }
+}

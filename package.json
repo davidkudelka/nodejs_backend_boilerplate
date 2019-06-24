@@ -1,0 +1,25 @@
+{
+  "name": "backend_boilerplate",
+  "version": "1.0.0",
+  "description": "Backend boilerplate",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/davidkudelka/backend_boilerplate.git"
+  },
+  "author": "David Kudelka",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/davidkudelka/backend_boilerplate/issues"
+  },
+  "homepage": "https://github.com/davidkudelka/backend_boilerplate#readme",
+  "devDependencies": {
+    "@oakslab/ooo-config": "0.0.6",
+    "prettier": "^1.18.2",
+    "tslint-config-prettier": "^1.18.0",
+    "typescript": "^3.5.2"
+  }
+}
